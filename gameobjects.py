@@ -1,5 +1,4 @@
 import pygame
-
 SCREEN_WIDTH = 1200
 SCREEN_HEIGHT = 720
 CARD_WIDTH = 144
