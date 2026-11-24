@@ -1,6 +1,5 @@
 from _player import *
 from gameobjects import *
-from gameobjects import *
 import random
 
 class Game():
@@ -16,8 +15,6 @@ class Game():
         #Game object init
         self.players = [Player(0),Player(1)]
         self.center_piles = [Pile("center0",52,(SCREEN_WIDTH//2 - CARD_WIDTH - 10,(SCREEN_HEIGHT - 2* CARD_HEIGHT - 2* 30))),Pile("center1",52,(SCREEN_WIDTH//2 + 10,(SCREEN_HEIGHT - 2* CARD_HEIGHT - 2* 30)))]
-        self.center_piles = [Pile("center0",52,(SCREEN_WIDTH//2 - CARD_WIDTH - 10,(SCREEN_HEIGHT - 2* CARD_HEIGHT - 2* 30))),Pile("center1",52,(SCREEN_WIDTH//2 + 10,(SCREEN_HEIGHT - 2* CARD_HEIGHT - 2* 30)))]
-        self.deck = Deck("deck",52,(0,0))
         self.moving_sprites = pygame.sprite.Group() 
         self.all_sprites = pygame.sprite.LayeredUpdates()
 
